@@ -135,9 +135,9 @@ export default function App() {
     }
 
     introTimers.current = [
-      window.setTimeout(() => setIntroStep(1), 5000),
-      window.setTimeout(() => setIntroStep(2), 10000),
-      window.setTimeout(() => setIntroPhase("leaving"), 15000),
+      window.setTimeout(() => setIntroStep(1), 3000),
+      window.setTimeout(() => setIntroStep(2), 7000),
+      window.setTimeout(() => setIntroPhase("leaving"), 13000),
     ];
 
     return () => {
