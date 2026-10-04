@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4b8cc"/>
+  <path d="M0 510h1200v120H0z" fill="#ff704d"/>
+  <g fill="none" stroke="#20151b" stroke-width="3" opacity=".22">
+    <circle cx="960" cy="300" r="205"/>
+    <circle cx="960" cy="300" r="165"/>
+    <circle cx="960" cy="300" r="125"/>
+  </g>
+  <g fill="#ff704d" stroke="#20151b" stroke-width="3">
+    <path d="M882 113h30v68h-30z"/>
+    <path d="M922 92h30v89h-30z"/>
+    <path d="M962 69h30v112h-30z"/>
+  </g>
+  <text x="80" y="104" fill="#20151b" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="3">VELTRIX LABS</text>
+  <text x="76" y="278" fill="#20151b" font-family="Arial, sans-serif" font-size="86" font-weight="900" letter-spacing="-4">BIG IDEAS.</text>
+  <text x="76" y="374" fill="#20151b" font-family="Arial, sans-serif" font-size="86" font-weight="900" letter-spacing="-4">REAL SOFTWARE.</text>
+  <text x="82" y="448" fill="#593747" font-family="Arial, sans-serif" font-size="27">Custom websites, apps &amp; business software</text>
+  <text x="80" y="580" fill="#20151b" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">DESIGNED AROUND YOUR NEXT BIG MOVE</text>
+</svg>
