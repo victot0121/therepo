@@ -48,10 +48,10 @@ const questions = [
 
 const socialLinks = [
   { name: "Facebook", href: "https://www.facebook.com/", icon: "facebook" },
-  { name: "LinkedIn", href: "https://www.linkedin.com/", icon: "linkedin" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/calvora-labs/home/?viewAsMember=true", icon: "linkedin" },
   { name: "X", href: "https://x.com/", icon: "x" },
   { name: "Instagram", href: "https://www.instagram.com/", icon: "instagram" },
-  { name: "WhatsApp", href: "https://wa.me/", icon: "whatsapp" },
+  { name: "WhatsApp", href: "https://wa.me/234901910221", icon: "whatsapp" },
   { name: "GitHub", href: "https://github.com/", icon: "github" },
 ] as const;
 
