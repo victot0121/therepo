@@ -1,4 +1,4 @@
-# Veltrix Labs 
+# Calvora Labs
 
 A responsive studio website built with React, TypeScript, and Vite. It features a crisp vector laptop-and-mobile hero, service listings, clearly labeled example project concepts, project deliverables, the working process, social links, and an FAQ. The project concepts are illustrative examples, not client case studies.
 

@@ -86,9 +86,9 @@ function SocialIcon({ name }: { name: SocialIconName }) {
 
 function Brand() {
   return (
-    <a className="brand" href="#home" aria-label="Veltrix Labs home">
+    <a className="brand" href="#home" aria-label="Calvora Labs home">
       <span className="brand-symbol"><span /><span /><span /></span>
-      <span>VELTRIX<span className="brand-light"> LABS</span></span>
+      <span>CALVORA<span className="brand-light"> LABS</span></span>
     </a>
   );
 }
@@ -208,7 +208,7 @@ export default function App() {
           <span className="site-intro-index" aria-hidden="true">0{introStep + 1} <span>/ 03</span></span>
           <button className="site-intro-skip" type="button" onClick={skipIntro}>SKIP INTRO <ArrowUpRight size={13} /></button>
           <div className="site-intro-content">
-            <div className="site-intro-brand"><span className="brand-symbol" aria-hidden="true"><span /><span /><span /></span> VELTRIX LABS</div>
+            <div className="site-intro-brand"><span className="brand-symbol" aria-hidden="true"><span /><span /><span /></span> CALVORA LABS</div>
             <div className="site-intro-showcase" key={introStep}>
               <div className={`site-intro-art site-intro-art-${introStep + 1}`} aria-hidden="true">
                 <span className="intro-art-ring intro-art-ring-outer" />
@@ -223,7 +223,7 @@ export default function App() {
                 {introStep === 1 && <>Make it<br /><span>make sense.</span></>}
                 {introStep === 2 && <>Build what<br /><span>moves you.</span></>}
               </h1>
-              <p className="site-intro-caption">Veltrix Labs <span>—</span> Digital ideas, made real.</p>
+              <p className="site-intro-caption">Calvora Labs <span>—</span> Digital ideas, made real.</p>
             </div>
             <div className="site-intro-progress" aria-label={`Introduction ${introStep + 1} of 3`}>
               {[0, 1, 2].map((step) => <span key={step} className={step <= introStep ? "is-active" : ""} />)}
@@ -398,7 +398,7 @@ export default function App() {
             </div>
             <div className="social-links">
               {socialLinks.map((social) => (
-                <a key={social.name} className="social-link" href={social.href} target="_blank" rel="noreferrer" aria-label={`Visit Veltrix Labs on ${social.name}`}>
+                <a key={social.name} className="social-link" href={social.href} target="_blank" rel="noreferrer" aria-label={`Visit Calvora Labs on ${social.name}`}>
                   <SocialIcon name={social.icon} />
                   <span>{social.name}</span>
                   <ArrowUpRight size={15} />
@@ -416,13 +416,13 @@ export default function App() {
               <p>Tell us what you’re thinking. We’ll bring curiosity, honest advice, and a plan to get moving.</p>
               <a className="button button-primary" href="mailto:hello@veltrixlabs.com?subject=Let%27s%20build%20something">Tell us about your project <ArrowUpRight size={16} /></a>
             </div>
-            <div className="contact-index"><span>VELTRIX LABS</span><span>INDEPENDENT BY DESIGN<br />BUILT TO MOVE YOU FORWARD.</span><span>VL — 026</span></div>
+            <div className="contact-index"><span>CALVORA LABS</span><span>INDEPENDENT BY DESIGN<br />BUILT TO MOVE YOU FORWARD.</span><span>CL — 026</span></div>
           </div>
         </section>
       </main>
 
       <footer className="site-footer">
-        <div className="container footer-inner"><Brand /><span>© {new Date().getFullYear()} VELTRIX LABS</span><a href="mailto:hello@veltrixlabs.com">LET’S BUILD SOMETHING <ArrowUpRight size={13} /></a></div>
+        <div className="container footer-inner"><Brand /><span>© {new Date().getFullYear()} CALVORA LABS</span><a href="mailto:hello@veltrixlabs.com">LET’S BUILD SOMETHING <ArrowUpRight size={13} /></a></div>
       </footer>
     </div>
   );
